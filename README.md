@@ -1,4 +1,4 @@
-# Xhprof image
+# Xhprof & XhGUI image
 
 ## Requirements
 
@@ -39,5 +39,5 @@ docker run \
   -v /path/to/nginx:/var/log/nginx
   -v /path/to/php5-fpm:/var/log/php5-fpm
   -v /path/to/mongodb:/var/log/mongodb
-  monsieurchico/xhprof
+  monsieurchico/xhprof-xhgui
 ```
