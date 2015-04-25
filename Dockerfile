@@ -100,7 +100,7 @@ COPY ./resources/startup.sh /bin/startup.sh
 COPY ./resources/supervisord.conf /etc/supervisord.conf
 
 # ports
-EXPOSE 33333
+EXPOSE 22 27017 33333
 
 # volumes
 VOLUME ["/var/log/supervisor", "/var/log/nginx", "/var/log/php5-fpm", "/var/log/mongodb"]

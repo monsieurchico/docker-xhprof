@@ -16,6 +16,7 @@ You can bind ports :
 
 * 33333
 * 27017
+* 22
 
 ### Volumes
 
